@@ -2,6 +2,7 @@ import React from "react";
 import { ProductCard } from "../components";
 
 export const HomePage = () => {
+  console.log("Hello World");
   const products = [
     {
       id: "1",
