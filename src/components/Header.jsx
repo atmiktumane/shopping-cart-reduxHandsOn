@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header className="h-20 bg-slate-300 p-7 flex justify-between items-center">
-      <div className="col-1 flex items-center">
+      <Link to="/" className="col-1 flex items-center">
         <img className="h-12" src={logo} alt="Shopping Cart" />
-        <span className="text-3xl">Shopping Cart</span>
-      </div>
+        <span className="text-3xl">ShoppingKart</span>
+      </Link>
 
       <div className="col-2 text-xl text-white">
         <NavLink
